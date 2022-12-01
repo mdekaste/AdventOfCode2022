@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8528c4c-1219-4542-819e-70e5305b7859" name="Changes" comment="">
+    <list default="true" id="b8528c4c-1219-4542-819e-70e5305b7859" name="Changes" comment="day 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day1/Day1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1/Day1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day1/input" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1/input" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,8 +69,16 @@
       <option name="presentableId" value="Default" />
       <updated>1669832848021</updated>
       <workItem from="1669832849349" duration="2587000" />
-      <workItem from="1669870729959" duration="1767000" />
+      <workItem from="1669870729959" duration="2453000" />
     </task>
+    <task id="LOCAL-00001" summary="day 1">
+      <created>1669872593753</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669872593753</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,5 +94,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="day 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 1" />
   </component>
 </project>
