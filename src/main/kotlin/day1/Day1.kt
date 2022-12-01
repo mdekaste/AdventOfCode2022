@@ -1,6 +1,7 @@
 package day1
 
 import Challenge
+import java.lang.System.lineSeparator
 
 fun main(){
     println(Day1.part1())
@@ -8,11 +9,10 @@ fun main(){
 }
 
 object Day1 : Challenge() {
-    override fun part1(): Any? {
-        return input.lines()[0]
-    }
+    val parsed = input.split(lineSeparator() + lineSeparator())
+        .map { it.lines().sumOf(Integer::parseInt) }
+        .sortedDescending()
+    override fun part1() = parsed.first()
 
-    override fun part2(): Any? {
-        return input.lines()[1]
-    }
+    override fun part2() = parsed.take(3).sum()
 }
