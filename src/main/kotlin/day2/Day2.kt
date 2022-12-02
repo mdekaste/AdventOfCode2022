@@ -8,11 +8,9 @@ fun main(){
 }
 
 object Day2 : Challenge() {
-    override fun part1(): Any? {
-        TODO("Not yet implemented")
-    }
-
-    override fun part2(): Any? {
-        TODO("Not yet implemented")
-    }
+    val parsed = input.lines()
+        .map { it.split(" ").map(String::first) }
+        .map { (him, me) -> (him - 'A') to (me - 'X') }
+    override fun part1() = parsed.sumOf { (him, me) -> ((me + 4 - him) % 3) * 3 + me + 1 }
+    override fun part2() = parsed.sumOf { (him, me) -> (me + 2 + him) % 3 + 1 + me * 3 }
 }
