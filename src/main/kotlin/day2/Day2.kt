@@ -7,7 +7,7 @@ fun main(){
     println(Day2.part2())
 }
 
-object Day2 : Challenge() {
+object Day2 : Challenge("Rock Paper Scissors") {
     val parsed = input.lines()
         .map { it.split(" ").map(String::first) }
         .map { (him, me) -> (him - 'A') to (me - 'X') }

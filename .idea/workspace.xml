@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8528c4c-1219-4542-819e-70e5305b7859" name="Changes" comment="day 2 prep">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day3/Day3.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day3/input" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/day2/Day2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day2/Day2.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day2/input" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day2/input" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +48,7 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.Day2Kt">
+  <component name="RunManager" selected="Kotlin.Day3Kt">
     <configuration name="Day1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day1.Day1Kt" />
       <module name="AdventOfCode2022" />
@@ -64,8 +65,17 @@
         <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration name="Day3Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day3.Day3Kt" />
+      <module name="AdventOfCode2022" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Day3Kt" />
         <item itemvalue="Kotlin.Day2Kt" />
         <item itemvalue="Kotlin.Day1Kt" />
       </list>
@@ -118,16 +128,5 @@
     <MESSAGE value="day 1" />
     <MESSAGE value="day 2 prep" />
     <option name="LAST_COMMIT_MESSAGE" value="day 2 prep" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/day2/Day2.kt</url>
-          <line>20</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
