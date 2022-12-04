@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8528c4c-1219-4542-819e-70e5305b7859" name="Changes" comment="day 3 finished">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day4/Day4.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day4/input" afterDir="false" />
+    <list default="true" id="b8528c4c-1219-4542-819e-70e5305b7859" name="Changes" comment="day 4 finished">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day5/Day5.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day5/input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day6/Day6.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day6/input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day7/Day7.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +50,7 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.Day4Kt">
+  <component name="RunManager" selected="Kotlin.Day5Kt">
     <configuration name="Day1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day1.Day1Kt" />
       <module name="AdventOfCode2022" />
@@ -80,8 +83,17 @@
         <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration name="Day5Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day5.Day5Kt" />
+      <module name="AdventOfCode2022" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Day5Kt" />
         <item itemvalue="Kotlin.Day4Kt" />
         <item itemvalue="Kotlin.Day3Kt" />
         <item itemvalue="Kotlin.Day2Kt" />
