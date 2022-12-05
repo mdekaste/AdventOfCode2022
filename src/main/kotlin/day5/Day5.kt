@@ -32,14 +32,9 @@ object Day5 : Challenge() {
 
     override fun part2() = craneGame(reverse = true)
 
-    private fun craneGame(reverse: Boolean): String {
-        val stacks = stacks.map(List<Char>::toMutableList)
-        for((amount, from, to) in moves){
-            stacks[to - 1] +=
-                List(amount){ stacks[from - 1].removeLast() }
-                    .let { if(reverse) it.reversed() else it }
-
+    private fun craneGame(reverse: Boolean) = stacks.map(List<Char>::toMutableList).apply {
+        for ((amount, from, to) in moves) {
+            this[to - 1] += MutableList(amount) { this[from - 1].removeLast() }.apply { if (reverse) reverse() }
         }
-        return stacks.map(List<*>::last).joinToString(separator = "")
-    }
+    }.joinToString(separator = ""){ it.last().toString() }
 }
