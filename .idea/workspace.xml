@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8528c4c-1219-4542-819e-70e5305b7859" name="Changes" comment="day5+ prep">
+    <list default="true" id="b8528c4c-1219-4542-819e-70e5305b7859" name="Changes" comment="day5 opgeschoond">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/day5/Day5.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day5/Day5.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day5/input" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day5/input" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +110,7 @@
       <workItem from="1669957176206" duration="3489000" />
       <workItem from="1670043325782" duration="3961000" />
       <workItem from="1670129776162" duration="611000" />
-      <workItem from="1670216214132" duration="3516000" />
+      <workItem from="1670216214132" duration="5118000" />
     </task>
     <task id="LOCAL-00001" summary="day 1">
       <created>1669872593753</created>
@@ -148,7 +147,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670181810025</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="day5 &quot;mooi&quot; gemaakt">
+      <created>1670219851249</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670219851249</updated>
+    </task>
+    <task id="LOCAL-00007" summary="day5 opgeschoond">
+      <created>1670220688336</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1670220688336</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,7 +184,9 @@
     <MESSAGE value="day 3 prep" />
     <MESSAGE value="day 3 finished" />
     <MESSAGE value="day5+ prep" />
-    <option name="LAST_COMMIT_MESSAGE" value="day5+ prep" />
+    <MESSAGE value="day5 &quot;mooi&quot; gemaakt" />
+    <MESSAGE value="day5 opgeschoond" />
+    <option name="LAST_COMMIT_MESSAGE" value="day5 opgeschoond" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
