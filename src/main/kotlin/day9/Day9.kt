@@ -1,23 +1,19 @@
 package day9
 
 import Challenge
-import kotlin.math.absoluteValue
-import kotlin.math.max
-import kotlin.math.sign
+import helpers.Point
 
 fun main() {
     Day9.part1().let(::println)
     Day9.part2().let(::println)
 }
-
-data class Point(val y: Int, val x: Int)
 object Day9 : Challenge() {
     val parsed = input
         .lineSequence()
         .map { it.split(" ").let { (a, b) -> a to b.toInt() } }
         .flatMap { (move, amount) -> generateSequence { move }.take(amount) }
         .map(::moveToDif)
-        .runningFold(List(10) { Point(0, 0) }, ::moveRope)
+        .runningFold(List(10) { Point.ORIGIN }, ::moveRope)
 
     private fun moveToDif(move: String) = when (move) {
         "U" -> Point(-1, 0)
@@ -29,13 +25,12 @@ object Day9 : Challenge() {
 
     private fun moveRope(rope: List<Point>, direction: Point): List<Point> = rope
         .drop(1)
-        .runningFold(Point(rope.first().y + direction.y, rope.first().x + direction.x), ::fixTail)
+        .runningFold(rope.first() + direction, ::fixTail)
 
     private fun fixTail(head: Point, tail: Point): Point {
-        val yDif = head.y - tail.y
-        val xDif = head.x - tail.x
-        return when (max(yDif.absoluteValue, xDif.absoluteValue)) {
-            2 -> Point(tail.y + yDif.sign, tail.x + xDif.sign)
+        val pointDif = head - tail
+        return when (pointDif.absoluteValue().max()) {
+            2 -> tail + pointDif.sign()
             else -> tail
         }
     }

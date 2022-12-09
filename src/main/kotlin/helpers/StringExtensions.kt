@@ -1,3 +1,5 @@
+package helpers
+
 object StringExtensions {
     val NON_INT_DELIMITER = """(\D)+""".toRegex()
 }
