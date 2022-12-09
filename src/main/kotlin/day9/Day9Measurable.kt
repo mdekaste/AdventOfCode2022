@@ -1,6 +1,5 @@
 package day9
 
-import Challenge
 import helpers.Point
 import java.io.File
 import kotlin.time.ExperimentalTime
@@ -13,25 +12,28 @@ fun main() {
         dag.part1()
         dag.part2()
     }
+    val dag = Day9Measurable()
+    dag.part1().let(::println)
+    dag.part2().let(::println)
     measureTime {
-        Day9Measurable().run {
-            part1()
-            part2()
-        }
+        val dag = Day9Measurable()
+        dag.part1()
+        dag.part2()
     }.let(::println)
 }
-class Day9Measurable : Challenge() {
-
+class Day9Measurable {
     companion object {
-        val inputFile = File(javaClass.getResource("input").path).readText()
+        val input = File(javaClass.getResource("input").path).readText()
     }
 
-    val parsed = inputFile
+    val parsed = input
         .lineSequence()
         .map { it.split(" ").let { (a, b) -> a to b.toInt() } }
         .flatMap { (move, amount) -> generateSequence { move }.take(amount) }
         .map(::moveToDif)
         .runningFold(List(10) { Point.ORIGIN }, ::moveRope)
+        .map { it[1] to it[9] }
+        .toList()
 
     private fun moveToDif(move: String) = when (move) {
         "U" -> Point(-1, 0)
@@ -53,7 +55,7 @@ class Day9Measurable : Challenge() {
         }
     }
 
-    override fun part1() = parsed.distinctBy { it[1] }.count()
+    fun part1() = parsed.distinctBy { it.first }.count()
 
-    override fun part2() = parsed.distinctBy { it[9] }.count()
+    fun part2() = parsed.distinctBy { it.second }.count()
 }
