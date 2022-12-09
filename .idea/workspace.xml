@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8528c4c-1219-4542-819e-70e5305b7859" name="Changes" comment="day 9 reverted &quot;pretty&quot; solve to original, no need to be ultra hacky in that one." />
+    <list default="true" id="b8528c4c-1219-4542-819e-70e5305b7859" name="Changes" comment="day 9 reverted &quot;pretty&quot; solve to original, no need to be ultra hacky in that one.">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day8/Day8Measurable.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventOfCode2022.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode2022.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day9/Day9Measurable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day9/Day9Measurable.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/helpers/Point.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/helpers/Point.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,32 +46,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Global Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.6333333",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.6333333&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Kotlin.Day9MeasurableKt">
-    <configuration name="Day6Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day6.Day6Kt" />
-      <module name="AdventOfCode2022" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
     <configuration name="Day7Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day7.Day7Kt" />
       <module name="AdventOfCode2022" />
@@ -80,6 +79,13 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration name="Day8MeasurableKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day8.Day8MeasurableKt" />
+      <module name="AdventOfCode2022" />
+      <method v="2">
+        <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Day9Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
@@ -99,19 +105,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Kotlin.Day8MeasurableKt" />
       <item itemvalue="Kotlin.Day9Kt" />
       <item itemvalue="Kotlin.Day9MeasurableKt" />
       <item itemvalue="Kotlin.Day8Kt" />
-      <item itemvalue="Kotlin.Day6Kt" />
       <item itemvalue="Kotlin.Day7Kt" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.Day9MeasurableKt" />
+        <item itemvalue="Kotlin.Day8MeasurableKt" />
         <item itemvalue="Kotlin.Day8Kt" />
         <item itemvalue="Kotlin.Day9Kt" />
         <item itemvalue="Kotlin.Day7Kt" />
-        <item itemvalue="Kotlin.Day6Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -135,6 +141,9 @@
       <workItem from="1670475264213" duration="6575000" />
       <workItem from="1670526544777" duration="2476000" />
       <workItem from="1670561914339" duration="9117000" />
+      <workItem from="1670579321289" duration="1261000" />
+      <workItem from="1670589797992" duration="2276000" />
+      <workItem from="1670597874366" duration="929000" />
     </task>
     <task id="LOCAL-00001" summary="day 1">
       <created>1669872593753</created>
@@ -255,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670576353524</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="day 9 reverted &quot;pretty&quot; solve to original, no need to be ultra hacky in that one.">
+      <created>1670576363986</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1670576363986</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

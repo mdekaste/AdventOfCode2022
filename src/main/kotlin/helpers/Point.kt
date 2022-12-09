@@ -2,8 +2,9 @@ package helpers
 
 import kotlin.math.absoluteValue
 import kotlin.math.sign
+import kotlin.math.max
 
-data class Point(val y: Int, val x: Int) {
+data class Point(val y: Int, val x: Int) : List<Int> by listOf(y,x) {
     companion object {
         val ORIGIN = Point(0, 0)
     }
@@ -11,5 +12,5 @@ data class Point(val y: Int, val x: Int) {
     operator fun minus(o: Point) = Point(y - o.y, x - o.x)
     fun sign() = Point(y.sign, x.sign)
     fun absoluteValue() = Point(y.absoluteValue, x.absoluteValue)
-    fun max() = kotlin.math.max(y, x)
+    fun max() = max(y, x)
 }
