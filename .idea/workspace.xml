@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8528c4c-1219-4542-819e-70e5305b7859" name="Changes" comment="made Point a dataclass instead for better readability">
+    <list default="true" id="b8528c4c-1219-4542-819e-70e5305b7859" name="Changes" comment="Point usuable for later solutions with functions for better readability">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Challenge.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Challenge.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day5/Day5.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day5/Day5.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/day9/Day9.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day9/Day9.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +21,7 @@
         <option value="Kotlin Class" />
         <option value="Kotlin File" />
         <option value="Kotlin Object" />
+        <option value="Kotlin Data Class" />
       </list>
     </option>
   </component>
@@ -47,15 +51,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.Day9Kt">
-    <configuration name="Day5Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day5.Day5Kt" />
-      <module name="AdventOfCode2022" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.Day9MeasurableKt">
     <configuration name="Day6Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day6.Day6Kt" />
       <module name="AdventOfCode2022" />
@@ -88,13 +84,21 @@
         <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration name="Day9MeasurableKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day9.Day9MeasurableKt" />
+      <module name="AdventOfCode2022" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Day9MeasurableKt" />
         <item itemvalue="Kotlin.Day9Kt" />
         <item itemvalue="Kotlin.Day8Kt" />
         <item itemvalue="Kotlin.Day7Kt" />
         <item itemvalue="Kotlin.Day6Kt" />
-        <item itemvalue="Kotlin.Day5Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -117,7 +121,7 @@
       <workItem from="1670397776808" duration="1100000" />
       <workItem from="1670475264213" duration="6575000" />
       <workItem from="1670526544777" duration="2476000" />
-      <workItem from="1670561914339" duration="6312000" />
+      <workItem from="1670561914339" duration="7531000" />
     </task>
     <task id="LOCAL-00001" summary="day 1">
       <created>1669872593753</created>
@@ -217,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670567801543</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Point usuable for later solutions with functions for better readability">
+      <created>1670568627971</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1670568627971</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,7 +260,8 @@
     <MESSAGE value="day 8" />
     <MESSAGE value="day 9 typealiased" />
     <MESSAGE value="made Point a dataclass instead for better readability" />
-    <option name="LAST_COMMIT_MESSAGE" value="made Point a dataclass instead for better readability" />
+    <MESSAGE value="Point usuable for later solutions with functions for better readability" />
+    <option name="LAST_COMMIT_MESSAGE" value="Point usuable for later solutions with functions for better readability" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

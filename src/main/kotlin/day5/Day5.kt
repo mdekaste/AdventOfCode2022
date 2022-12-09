@@ -1,9 +1,9 @@
 package day5
 
 import Challenge
-import extractInts
-import removeLast
-import splitOnEmpty
+import helpers.extractInts
+import helpers.removeLast
+import helpers.splitOnEmpty
 
 fun main() {
     Day5.part1().let(::println)
