@@ -49,10 +49,8 @@ class Day9Measurable {
 
     private fun fixTail(head: Point, tail: Point): Point {
         val pointDif = head - tail
-        return when (pointDif.absoluteValue().max()) {
-            2 -> tail + pointDif.sign()
-            else -> tail
-        }
+        val pointStep = pointDif.sign()
+        return if(pointDif == pointStep) tail else tail + pointStep
     }
 
     fun part1() = parsed.distinctBy { it.first }.count()
