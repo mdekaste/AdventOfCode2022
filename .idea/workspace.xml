@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8528c4c-1219-4542-819e-70e5305b7859" name="Changes" comment="Point usuable for later solutions with functions for better readability">
+    <list default="true" id="b8528c4c-1219-4542-819e-70e5305b7859" name="Changes" comment="day9 measuring">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Challenge.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Challenge.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day5/Day5.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day5/Day5.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day9/Day9.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day9/Day9.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day9/Day9Measurable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day9/Day9Measurable.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,10 +16,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
         <option value="Kotlin Object" />
         <option value="Kotlin Data Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -95,8 +93,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.Day9MeasurableKt" />
-        <item itemvalue="Kotlin.Day9Kt" />
         <item itemvalue="Kotlin.Day8Kt" />
+        <item itemvalue="Kotlin.Day9Kt" />
         <item itemvalue="Kotlin.Day7Kt" />
         <item itemvalue="Kotlin.Day6Kt" />
       </list>
@@ -121,7 +119,7 @@
       <workItem from="1670397776808" duration="1100000" />
       <workItem from="1670475264213" duration="6575000" />
       <workItem from="1670526544777" duration="2476000" />
-      <workItem from="1670561914339" duration="7531000" />
+      <workItem from="1670561914339" duration="9117000" />
     </task>
     <task id="LOCAL-00001" summary="day 1">
       <created>1669872593753</created>
@@ -228,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670568627971</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="day9 measuring">
+      <created>1670569703355</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1670569703355</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,7 +266,8 @@
     <MESSAGE value="day 9 typealiased" />
     <MESSAGE value="made Point a dataclass instead for better readability" />
     <MESSAGE value="Point usuable for later solutions with functions for better readability" />
-    <option name="LAST_COMMIT_MESSAGE" value="Point usuable for later solutions with functions for better readability" />
+    <MESSAGE value="day9 measuring" />
+    <option name="LAST_COMMIT_MESSAGE" value="day9 measuring" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
