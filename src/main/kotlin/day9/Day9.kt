@@ -9,11 +9,10 @@ fun main() {
 }
 object Day9 : Challenge() {
     val parsed = input
-        .lineSequence()
+        .lines()
         .map { it.split(" ").let { (a, b) -> a to b.toInt() } }
         .flatMap { (move, amount) -> generateSequence { move }.take(amount) }
         .map(::moveToDif)
-        .runningFold(List(10) { Point.ORIGIN }, ::moveRope)
 
     private fun moveToDif(move: String) = when (move) {
         "U" -> Point(-1, 0)
@@ -23,19 +22,22 @@ object Day9 : Challenge() {
         else -> error("unknown move")
     }
 
+    private fun solve(ropeSize: Int) = parsed
+        .runningFold(List(ropeSize) { Point.ORIGIN }, ::moveRope)
+        .distinctBy(List<*>::last)
+        .size
+
     private fun moveRope(rope: List<Point>, direction: Point): List<Point> = rope
         .drop(1)
         .runningFold(rope.first() + direction, ::fixTail)
 
     private fun fixTail(head: Point, tail: Point): Point {
         val pointDif = head - tail
-        return when (pointDif.absoluteValue().max()) {
-            2 -> tail + pointDif.sign()
-            else -> tail
-        }
+        val pointStep = pointDif.sign()
+        return if(pointDif == pointStep) tail else tail + pointStep
     }
 
-    override fun part1() = parsed.distinctBy { it[1] }.count()
+    override fun part1() = solve(2)
 
-    override fun part2() = parsed.distinctBy { it[9] }.count()
+    override fun part2() = solve(10)
 }
