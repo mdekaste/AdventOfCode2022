@@ -22,7 +22,7 @@ object Day10 : Challenge() {
         .chunked(40)
         .joinToString("\n") {
             it.withIndex().joinToString("") { (index, value) ->
-                if (value in setOf(index - 1, index, index + 1)) "#" else "."
+                if (value in (index - 1)..(index + 1)) "#" else "."
             }
         }
 }
