@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8528c4c-1219-4542-819e-70e5305b7859" name="Changes" comment="day11 initial">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day11/Day11.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day11/input" afterDir="false" />
+    <list default="true" id="b8528c4c-1219-4542-819e-70e5305b7859" name="Changes" comment="day11 prettier">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day10/Day10.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day10/Day10.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day11/Day11.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day11/Day11.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +123,7 @@
       <workItem from="1670648304464" duration="4401000" />
       <workItem from="1670659729994" duration="1805000" />
       <workItem from="1670704315882" duration="72000" />
-      <workItem from="1670734671798" duration="7558000" />
+      <workItem from="1670734671798" duration="9288000" />
     </task>
     <task id="LOCAL-00001" summary="day 1">
       <created>1669872593753</created>
@@ -246,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670652678912</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="day11 prettier">
+      <created>1670742294657</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1670742294657</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,7 +287,8 @@
     <MESSAGE value="day9 measuring" />
     <MESSAGE value="day10" />
     <MESSAGE value="day11 initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="day11 initial" />
+    <MESSAGE value="day11 prettier" />
+    <option name="LAST_COMMIT_MESSAGE" value="day11 prettier" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
