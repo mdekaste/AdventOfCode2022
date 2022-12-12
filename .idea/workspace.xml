@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8528c4c-1219-4542-819e-70e5305b7859" name="Changes" comment="day11 prettier">
+    <list default="true" id="b8528c4c-1219-4542-819e-70e5305b7859" name="Changes" comment="day11 some more pretty">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day11/large2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day12/Day12.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day12/input" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/day11/Day11.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day11/Day11.kt" afterDir="false" />
     </list>
@@ -46,10 +50,13 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.Day11Kt">
+  <component name="RunManager" selected="Kotlin.Day12Kt">
     <configuration name="Day10Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day10.Day10Kt" />
       <module name="AdventOfCode2022" />
@@ -66,16 +73,16 @@
         <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration name="Day8Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day8.Day8Kt" />
+    <configuration name="Day12Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day12.Day12Kt" />
       <module name="AdventOfCode2022" />
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration name="Day9Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day9.Day9Kt" />
+    <configuration name="Day8Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day8.Day8Kt" />
       <module name="AdventOfCode2022" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -92,11 +99,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Day12Kt" />
         <item itemvalue="Kotlin.Day11Kt" />
         <item itemvalue="Kotlin.Day10Kt" />
         <item itemvalue="Kotlin.Day9MeasurableKt" />
         <item itemvalue="Kotlin.Day8Kt" />
-        <item itemvalue="Kotlin.Day9Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -123,7 +130,9 @@
       <workItem from="1670648304464" duration="4401000" />
       <workItem from="1670659729994" duration="1805000" />
       <workItem from="1670704315882" duration="72000" />
-      <workItem from="1670734671798" duration="9288000" />
+      <workItem from="1670734671798" duration="13707000" />
+      <workItem from="1670789367730" duration="2641000" />
+      <workItem from="1670820958258" duration="4328000" />
     </task>
     <task id="LOCAL-00001" summary="day 1">
       <created>1669872593753</created>
@@ -251,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670742294657</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="day11 some more pretty">
+      <created>1670751325175</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1670751325175</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,7 +304,8 @@
     <MESSAGE value="day10" />
     <MESSAGE value="day11 initial" />
     <MESSAGE value="day11 prettier" />
-    <option name="LAST_COMMIT_MESSAGE" value="day11 prettier" />
+    <MESSAGE value="day11 some more pretty" />
+    <option name="LAST_COMMIT_MESSAGE" value="day11 some more pretty" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -315,6 +332,16 @@
           <url>file://$PROJECT_DIR$/src/main/kotlin/day8/Day8.kt</url>
           <line>18</line>
           <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/day11/Day11.kt</url>
+          <line>40</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/day11/Day11.kt</url>
+          <line>26</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

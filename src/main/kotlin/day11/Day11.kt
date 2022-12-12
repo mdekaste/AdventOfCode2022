@@ -1,13 +1,23 @@
 package day11
 
 import Challenge
+import java.util.stream.Stream
+import kotlin.time.measureTime
 
 fun main() {
-    Day11.part1().let(::println)
-    Day11.part2().let(::println)
+    val day: Day11
+    measureTime {
+        day = Day11()
+    }.let(::println)
+    measureTime {
+        day.part1().let(::println)
+    }.let(::println)
+    measureTime {
+        day.part2().let(::println)
+    }.let(::println)
 }
 
-object Day11 : Challenge() {
+class Day11() : Challenge() {
 
     class Monkey(
         val initialItems: List<Long>,
@@ -51,5 +61,6 @@ object Day11 : Challenge() {
 
     override fun part1() = solve(20) { it / 3 }
 
-    override fun part2() = solve(10_000) { it % parsed.map(Monkey::testNumber).reduce(Long::times) }
+    val reductionNumberPart2 = parsed.map(Monkey::testNumber).reduce(Long::times)
+    override fun part2() = solve(10_000) { it % reductionNumberPart2 }
 }
