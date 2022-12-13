@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8528c4c-1219-4542-819e-70e5305b7859" name="Changes" comment="day11 some more pretty">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day11/large2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day12/Day12.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day12/input" afterDir="false" />
+    <list default="true" id="b8528c4c-1219-4542-819e-70e5305b7859" name="Changes" comment="day13 initial bad">
+      <change afterPath="$PROJECT_DIR$/.idea/ktlint.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day13/Day13.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day13/input" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day11/Day11.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day11/Day11.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,24 +37,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.ktlint"
   }
-}</component>
-  <component name="RunManager" selected="Kotlin.Day12Kt">
+}]]></component>
+  <component name="RunManager" selected="Kotlin.Day13Kt">
     <configuration name="Day10Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day10.Day10Kt" />
       <module name="AdventOfCode2022" />
@@ -81,8 +79,8 @@
         <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration name="Day8Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day8.Day8Kt" />
+    <configuration name="Day13Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day13.Day13Kt" />
       <module name="AdventOfCode2022" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -99,11 +97,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Day13Kt" />
         <item itemvalue="Kotlin.Day12Kt" />
         <item itemvalue="Kotlin.Day11Kt" />
         <item itemvalue="Kotlin.Day10Kt" />
         <item itemvalue="Kotlin.Day9MeasurableKt" />
-        <item itemvalue="Kotlin.Day8Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +130,8 @@
       <workItem from="1670704315882" duration="72000" />
       <workItem from="1670734671798" duration="13707000" />
       <workItem from="1670789367730" duration="2641000" />
-      <workItem from="1670820958258" duration="4328000" />
+      <workItem from="1670820958258" duration="10763000" />
+      <workItem from="1670875219095" duration="8696000" />
     </task>
     <task id="LOCAL-00001" summary="day 1">
       <created>1669872593753</created>
@@ -267,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670751325175</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="day12 map based grid">
+      <created>1670825340140</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1670825340140</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,7 +311,9 @@
     <MESSAGE value="day11 initial" />
     <MESSAGE value="day11 prettier" />
     <MESSAGE value="day11 some more pretty" />
-    <option name="LAST_COMMIT_MESSAGE" value="day11 some more pretty" />
+    <MESSAGE value="day12 map based grid" />
+    <MESSAGE value="day13 initial bad" />
+    <option name="LAST_COMMIT_MESSAGE" value="day13 initial bad" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -342,6 +350,22 @@
           <url>file://$PROJECT_DIR$/src/main/kotlin/day11/Day11.kt</url>
           <line>26</line>
           <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/day13/Day13.kt</url>
+          <line>25</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/day13/Day13.kt</url>
+          <line>26</line>
+          <properties>
+            <option name="lambda-ordinal" value="0" />
+          </properties>
+          <option name="timeStamp" value="57" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
