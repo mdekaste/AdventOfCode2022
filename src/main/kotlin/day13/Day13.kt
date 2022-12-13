@@ -9,16 +9,16 @@ fun main() {
 }
 
 object Day13 : Challenge() {
-    private val regex = """(,)|(?=\[)|(?=])|(?<=\[)|(?<=])""".toRegex()
+    private val regex2 = """(\d+|]|\[)""".toRegex()
     val parsed = input.lines().filter(String::isNotBlank).map(::lineToNode)
 
     private fun lineToNode(line: String) = buildList<MutableList<Node>> {
         add(mutableListOf())
-        line.split(regex).filter(String::isNotBlank).forEach { t ->
-            when(t){
+        regex2.findAll(line).map(MatchResult::value).forEach { cs ->
+            when(cs){
                 "[" -> add(mutableListOf())
                 "]" -> removeLast().also { last().add(Holder(*it.toTypedArray())) }
-                else -> last().add(Value(t.toInt()))
+                else -> last().add(Value(cs.toInt()))
             }
         }
     }[0][0]
