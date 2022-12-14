@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8528c4c-1219-4542-819e-70e5305b7859" name="Changes" comment="day14 initial">
+    <list default="true" id="b8528c4c-1219-4542-819e-70e5305b7859" name="Changes" comment="day14 somewhat more pretty?&#10;unsure about the whole wallTo and abysspoint">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/day14/Day14.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day14/Day14.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day14/input" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day14/input" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +131,7 @@
       <workItem from="1670820958258" duration="10763000" />
       <workItem from="1670875219095" duration="8696000" />
       <workItem from="1670960492926" duration="419000" />
-      <workItem from="1670993862446" duration="6802000" />
+      <workItem from="1670993862446" duration="7917000" />
     </task>
     <task id="LOCAL-00001" summary="day 1">
       <created>1669872593753</created>
@@ -281,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670999489118</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="day14 somewhat more pretty?&#10;unsure about the whole wallTo and abysspoint">
+      <created>1671001151957</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1671001151957</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,7 +328,8 @@
     <MESSAGE value="day12 map based grid" />
     <MESSAGE value="day13 initial bad" />
     <MESSAGE value="day14 initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="day14 initial" />
+    <MESSAGE value="day14 somewhat more pretty?&#10;unsure about the whole wallTo and abysspoint" />
+    <option name="LAST_COMMIT_MESSAGE" value="day14 somewhat more pretty?&#10;unsure about the whole wallTo and abysspoint" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
