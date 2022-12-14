@@ -17,8 +17,8 @@ object Day13 : Challenge() {
         regex2.findAll(line).map(MatchResult::value).forEach { cs ->
             when(cs){
                 "[" -> add(mutableListOf())
-                "]" -> removeLast().also { last().add(Holder(*it.toTypedArray())) }
-                else -> last().add(Value(cs.toInt()))
+                "]" -> removeLast().also { last() += Holder(*it.toTypedArray()) }
+                else -> last() += Value(cs.toInt())
             }
         }
     }[0][0]

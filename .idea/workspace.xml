@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8528c4c-1219-4542-819e-70e5305b7859" name="Changes" comment="day13 initial bad">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day14/Day14.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day14/input" afterDir="false" />
+    <list default="true" id="b8528c4c-1219-4542-819e-70e5305b7859" name="Changes" comment="day14 prep + matching instead of splitting day 13">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/day13/Day13.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day13/Day13.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day14/Day14.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day14/Day14.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day14/input" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day14/input" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +54,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.ktlint&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.Day13Kt">
+  <component name="RunManager" selected="Kotlin.Day14Kt">
     <configuration name="Day10Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day10.Day10Kt" />
       <module name="AdventOfCode2022" />
@@ -97,8 +97,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.Day13Kt" />
         <item itemvalue="Kotlin.Day14Kt" />
+        <item itemvalue="Kotlin.Day13Kt" />
         <item itemvalue="Kotlin.Day12Kt" />
         <item itemvalue="Kotlin.Day11Kt" />
         <item itemvalue="Kotlin.Day10Kt" />
@@ -133,6 +133,7 @@
       <workItem from="1670820958258" duration="10763000" />
       <workItem from="1670875219095" duration="8696000" />
       <workItem from="1670960492926" duration="419000" />
+      <workItem from="1670993862446" duration="5273000" />
     </task>
     <task id="LOCAL-00001" summary="day 1">
       <created>1669872593753</created>
@@ -367,6 +368,11 @@
             <option name="lambda-ordinal" value="0" />
           </properties>
           <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/day14/Day14.kt</url>
+          <line>95</line>
+          <option name="timeStamp" value="59" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
