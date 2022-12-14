@@ -1,9 +1,6 @@
 package day14
 
 import Challenge
-import java.lang.Thread.yield
-import kotlin.math.abs
-import kotlin.math.max
 import kotlin.math.sign
 
 fun main() {
@@ -16,17 +13,12 @@ data class Point(val y: Int, val x: Int){
     fun bottomLeft() = Point(y + 1, x - 1)
     fun bottomRight() = Point(y + 1, x + 1)
 
-    fun wallTo(other: Point) = buildList {
-        (y - other.y).takeIf { it != 0 }?.let {
-            for(y in y..other.y step it.sign){
-                add(Point(y, x))
-            }
-        }
-        (x - other.x).takeIf { it != 0 }?.let {
-            for(x in x..other.x step it.sign){
-                add(Point(y, x))
-            }
-        }
+    fun wallTo(to: Point) = buildList {
+        val pointDif = Point((to.y - y).sign, (to.x - x).sign)
+        generateSequence(this@Point){ a -> Point(a.y + pointDif.y, a.x + pointDif.x) }
+            .takeWhile { it != to }
+            .forEach { add(Point(it.y, it.x)) }
+        add(to)
     }
 
 }
@@ -39,26 +31,7 @@ object Day14 : Challenge() {
                 .map { point -> point.split(",").let { (x,y) -> Point(y.toInt(), x.toInt()) } }
                 .zipWithNext()
                 .forEach { (from, to) ->
-                    if(from.y < to.y){
-                        for(y in from.y..to.y){
-                            put(Point(y,from.x), "WALL")
-                        }
-                    }
-                    if(from.y > to.y){
-                        for(y in to.y..from.y){
-                            put(Point(y,from.x), "WALL")
-                        }
-                    }
-                    if(from.x < to.x){
-                        for(x in from.x..to.x){
-                            put(Point(from.y,x), "WALL")
-                        }
-                    }
-                    if(from.x > to.x){
-                        for(x in to.x..from.x){
-                            put(Point(from.y,x), "WALL")
-                        }
-                    }
+                    from.wallTo(to).forEach { put(Point(it.y, it.x), "WALL") }
                 }
         }
         depthOfLowestWall = maxOf { (e,_) -> e.y } + 2
@@ -68,57 +41,23 @@ object Day14 : Challenge() {
     }.toMutableMap()
 
     private val sandSimulation = run {
-        var fallingSand = setOf(ORIGIN)
-        var settledSand = 0
+        val fallingSand = ArrayDeque(listOf(ORIGIN))
         var abyssPoint = 0
         while(grid[ORIGIN] != "SAND"){
-            fallingSand = buildSet {
-                for(grain in fallingSand){
-                    when{
-                        grid[grain.bottomMiddle()] == null -> add(grain.bottomMiddle())
-                        grid[grain.bottomLeft()] == null -> add(grain.bottomLeft())
-                        grid[grain.bottomRight()] == null -> add(grain.bottomRight())
-                        else -> {
-                            grid[grain] = "SAND"
-                            settledSand++
-                        }
-                    }
-                }
-                if(fallingSand.any { (y,x) -> y == depthOfLowestWall - 2 }){
-                    if(abyssPoint == 0){
-                        abyssPoint = settledSand
-                    }
-                }
-                add(ORIGIN)
+            val grain = fallingSand.first()
+            when{
+                grid[grain.bottomMiddle()] == null -> fallingSand.addFirst(grain.bottomMiddle())
+                grid[grain.bottomLeft()] == null -> fallingSand.addFirst(grain.bottomLeft())
+                grid[grain.bottomRight()] == null -> fallingSand.addFirst(grain.bottomRight())
+                else -> grid[fallingSand.removeFirst()] = "SAND"
             }
-            printGrid(grid, fallingSand)
+            if(grain.y == depthOfLowestWall - 2 && abyssPoint == 0){
+                abyssPoint = grid.values.count { it == "SAND" }
+            }
         }
-        abyssPoint to settledSand
+        abyssPoint to grid.values.count { it == "SAND" }
     }
 
     override fun part1() = sandSimulation.first
     override fun part2() = sandSimulation.second
-
-    private fun printGrid(map: Map<Point, String>, fallingSand: Set<Point>){
-        val yMin = map.minOf { (e,_) -> e.y }
-        val yMax = map.maxOf { (e,_) -> e.y }
-        val xMin = map.minOf { (e,_) -> e.x }
-        val xMax = map.maxOf { (e,_) -> e.x }
-        for(y in yMin..yMax){
-            for(x in xMin..xMax){
-                print(
-                    when(map[Point(y,x)]){
-                        "SAND" -> "+"
-                        "WALL" -> "#"
-                        else -> if(fallingSand.contains(Point(y,x))){
-                            '~'
-                        } else {
-                            '.'
-                        }
-                    }
-                )
-            }
-            println()
-        }
-    }
 }

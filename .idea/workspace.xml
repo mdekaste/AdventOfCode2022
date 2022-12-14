@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8528c4c-1219-4542-819e-70e5305b7859" name="Changes" comment="day14 prep + matching instead of splitting day 13">
+    <list default="true" id="b8528c4c-1219-4542-819e-70e5305b7859" name="Changes" comment="day14 initial">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day13/Day13.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day13/Day13.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/day14/Day14.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day14/Day14.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/day14/input" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day14/input" afterDir="false" />
     </list>
@@ -133,7 +132,7 @@
       <workItem from="1670820958258" duration="10763000" />
       <workItem from="1670875219095" duration="8696000" />
       <workItem from="1670960492926" duration="419000" />
-      <workItem from="1670993862446" duration="5273000" />
+      <workItem from="1670993862446" duration="6802000" />
     </task>
     <task id="LOCAL-00001" summary="day 1">
       <created>1669872593753</created>
@@ -275,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670825340140</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="day14 initial">
+      <created>1670999489118</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1670999489118</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,7 +321,8 @@
     <MESSAGE value="day11 some more pretty" />
     <MESSAGE value="day12 map based grid" />
     <MESSAGE value="day13 initial bad" />
-    <option name="LAST_COMMIT_MESSAGE" value="day13 initial bad" />
+    <MESSAGE value="day14 initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="day14 initial" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -368,11 +375,6 @@
             <option name="lambda-ordinal" value="0" />
           </properties>
           <option name="timeStamp" value="57" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/day14/Day14.kt</url>
-          <line>95</line>
-          <option name="timeStamp" value="59" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
