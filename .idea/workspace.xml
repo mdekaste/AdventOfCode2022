@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8528c4c-1219-4542-819e-70e5305b7859" name="Changes" comment="day 15 slightly better">
+    <list default="true" id="b8528c4c-1219-4542-819e-70e5305b7859" name="Changes" comment="day 15 meh?">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day16/Day16.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day16/input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day17/Day17.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day17/input" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day15/Day15.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day15/Day15.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,23 +55,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.ktlint&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.Day15Kt">
-    <configuration name="Day11Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day11.Day11Kt" />
-      <module name="AdventOfCode2022" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration name="Day12Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day12.Day12Kt" />
-      <module name="AdventOfCode2022" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.Day17Kt">
     <configuration name="Day13Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day13.Day13Kt" />
       <module name="AdventOfCode2022" />
@@ -93,13 +80,29 @@
         <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration name="Day16Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day16.Day16Kt" />
+      <module name="AdventOfCode2022" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration name="Day17Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day17.Day17Kt" />
+      <module name="AdventOfCode2022" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Day17Kt" />
+        <item itemvalue="Kotlin.Day16Kt" />
         <item itemvalue="Kotlin.Day15Kt" />
         <item itemvalue="Kotlin.Day14Kt" />
         <item itemvalue="Kotlin.Day13Kt" />
-        <item itemvalue="Kotlin.Day12Kt" />
-        <item itemvalue="Kotlin.Day11Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -134,7 +137,13 @@
       <workItem from="1670993862446" duration="8179000" />
       <workItem from="1671045280125" duration="806000" />
       <workItem from="1671080104505" duration="12183000" />
-      <workItem from="1671113796768" duration="5580000" />
+      <workItem from="1671113796768" duration="8591000" />
+      <workItem from="1671166590110" duration="1264000" />
+      <workItem from="1671167869347" duration="70000" />
+      <workItem from="1671167950370" duration="99000" />
+      <workItem from="1671168064089" duration="52000" />
+      <workItem from="1671168204682" duration="5792000" />
+      <workItem from="1671255440223" duration="6250000" />
     </task>
     <task id="LOCAL-00001" summary="day 1">
       <created>1669872593753</created>
@@ -304,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671089980512</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="day 15 meh?">
+      <created>1671119688025</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1671119688025</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,7 +338,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="day 3 prep" />
     <MESSAGE value="day 3 finished" />
     <MESSAGE value="day5+ prep" />
     <MESSAGE value="day5 &quot;mooi&quot; gemaakt" />
@@ -347,7 +362,8 @@
     <MESSAGE value="walling a bit better imho" />
     <MESSAGE value="day 15 first working commit lmao" />
     <MESSAGE value="day 15 slightly better" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 15 slightly better" />
+    <MESSAGE value="day 15 meh?" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 15 meh?" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
